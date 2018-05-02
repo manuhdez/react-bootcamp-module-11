@@ -30,7 +30,7 @@ class Posts extends Component {
 
     let posts = this.state.posts.map( post => {
       return (
-        <Link to={`/post/${post.id}`} key={post.id}>
+        <Link to={`/${post.id}`} key={post.id}>
           <Post
             title={post.title}
             author={post.author}
